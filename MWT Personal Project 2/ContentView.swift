@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, darkness my old friend")
-            .padding()
-    }
+        Login()
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +17,75 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+struct Login: View {
+    
+    @State var user = ""
+    @State var pass = ""
+    
+    var body: some View {
+        VStack {
+            
+            Image("Image")
+                
+                .resizable()
+                .scaledToFit()
+            
+            
+            Text("Sign In").fontWeight(.medium).font(.largeTitle).padding([.top,.bottom], 20)
+    
+            VStack(alignment: .leading) {
+                VStack (alignment: .leading){
+                    Text("Username").font(.headline).fontWeight(.light)
+                HStack {
+                    TextField("Enter Username", text: $user)
+                        .disableAutocorrection(true)
+                    
+                }.padding(.bottom, 15)
+               
+                
+                Divider()
+            }
+         VStack (alignment: .leading) {
+            Text("Password").font(.headline).fontWeight(.light)
+            
+            SecureField("Enter Password", text: $pass)
+                .disableAutocorrection(true)
+            
+            
+                Divider()
+    }
+    HStack{
+        
+        Spacer()
+        
+        Button(action: {
+            
+        }) {
+            Text("Forgot Password?").foregroundColor(Color.gray.opacity(0.9))
+        }
+    }
+            
+            }.padding(.horizontal, 8)
+           
+            bottomView()
+        }.padding()
+    }
+        struct bottomView: View {
+    
+    var body: some View {
+        
+        
+            Text("Sign In").foregroundColor(.blue).frame(width: UIScreen.main.bounds.width - 120).padding()
+        
+        Text("Dont have an account?").foregroundColor(Color.gray.opacity(0.9))
+        }
+    }
+    
+    }
+    
+}
+
+
+
