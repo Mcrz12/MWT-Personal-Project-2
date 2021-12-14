@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Login()
+        NavigationView{
+            Login()
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -76,10 +78,13 @@ struct Login: View {
     
     var body: some View {
         
-        
-            Text("Sign In").foregroundColor(.blue).frame(width: UIScreen.main.bounds.width - 120).padding()
-        
+        NavigationLink(destination: HomeMarioView() , label: {
+                Text("Sign In")
+                .foregroundColor(.blue)
+                .frame(width: UIScreen.main.bounds.width - 120)
+            })
         Text("Dont have an account?").foregroundColor(Color.gray.opacity(0.9))
+        
         }
     }
     
