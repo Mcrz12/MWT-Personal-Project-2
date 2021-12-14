@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		451EDA002769496900680B7E /* HomeMarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451ED9FF2769496900680B7E /* HomeMarioView.swift */; };
+		6698D455276955BD00B7730B /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6698D454276955BD00B7730B /* Fonts */; };
 		66A65EC22745C39000D4D38F /* MWT_Personal_Project_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65EC12745C39000D4D38F /* MWT_Personal_Project_2App.swift */; };
 		66A65EC42745C39000D4D38F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65EC32745C39000D4D38F /* ContentView.swift */; };
 		66A65EC62745C39500D4D38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A65EC52745C39500D4D38F /* Assets.xcassets */; };
 		66A65EC92745C39500D4D38F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A65EC82745C39500D4D38F /* Preview Assets.xcassets */; };
-		66A65ED12760119500D4D38F /* Title Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65ED02760119500D4D38F /* Title Page.swift */; };
-		66A65ED32760164A00D4D38F /* TitlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65ED22760164A00D4D38F /* TitlePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		451ED9FF2769496900680B7E /* HomeMarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMarioView.swift; sourceTree = "<group>"; };
+		6698D454276955BD00B7730B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		66A65EBE2745C39000D4D38F /* MWT Personal Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWT Personal Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A65EC12745C39000D4D38F /* MWT_Personal_Project_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_Project_2App.swift; sourceTree = "<group>"; };
 		66A65EC32745C39000D4D38F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66A65EC52745C39500D4D38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A65EC82745C39500D4D38F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66A65ECA2745C39500D4D38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66A65ED02760119500D4D38F /* Title Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Title Page.swift"; sourceTree = "<group>"; };
-		66A65ED22760164A00D4D38F /* TitlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +40,7 @@
 		66A65EB52745C39000D4D38F = {
 			isa = PBXGroup;
 			children = (
+				6698D454276955BD00B7730B /* Fonts */,
 				66A65EC02745C39000D4D38F /* MWT Personal Project 2 */,
 				66A65EBF2745C39000D4D38F /* Products */,
 			);
@@ -133,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6698D455276955BD00B7730B /* Fonts in Resources */,
 				66A65EC92745C39500D4D38F /* Preview Assets.xcassets in Resources */,
 				66A65EC62745C39500D4D38F /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A65ED12760119500D4D38F /* Title Page.swift in Sources */,
-				66A65ED32760164A00D4D38F /* TitlePage.swift in Sources */,
 				66A65EC42745C39000D4D38F /* ContentView.swift in Sources */,
 				451EDA002769496900680B7E /* HomeMarioView.swift in Sources */,
 				66A65EC22745C39000D4D38F /* MWT_Personal_Project_2App.swift in Sources */,
