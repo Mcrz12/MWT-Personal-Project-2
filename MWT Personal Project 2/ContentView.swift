@@ -26,9 +26,9 @@ struct Login: View {
     
     var body: some View {
         VStack {
-            
+           
             Image("Image")
-                
+              
                 .resizable()
                 .scaledToFit()
             
