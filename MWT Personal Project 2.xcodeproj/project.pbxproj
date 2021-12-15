@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		451EDA002769496900680B7E /* HomeMarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451ED9FF2769496900680B7E /* HomeMarioView.swift */; };
+		45C977BC276AA11C0091D326 /* JournalHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C977BB276AA11C0091D326 /* JournalHome.swift */; };
 		6698D455276955BD00B7730B /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6698D454276955BD00B7730B /* Fonts */; };
 		66A65EC22745C39000D4D38F /* MWT_Personal_Project_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65EC12745C39000D4D38F /* MWT_Personal_Project_2App.swift */; };
 		66A65EC42745C39000D4D38F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A65EC32745C39000D4D38F /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		451ED9FF2769496900680B7E /* HomeMarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMarioView.swift; sourceTree = "<group>"; };
+		45C977BB276AA11C0091D326 /* JournalHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHome.swift; sourceTree = "<group>"; };
 		6698D454276955BD00B7730B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		66A65EBE2745C39000D4D38F /* MWT Personal Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWT Personal Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A65EC12745C39000D4D38F /* MWT_Personal_Project_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_Project_2App.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				66A65EC12745C39000D4D38F /* MWT_Personal_Project_2App.swift */,
 				66A65EC32745C39000D4D38F /* ContentView.swift */,
 				451ED9FF2769496900680B7E /* HomeMarioView.swift */,
+				45C977BB276AA11C0091D326 /* JournalHome.swift */,
 				66A65EC52745C39500D4D38F /* Assets.xcassets */,
 				66A65ECA2745C39500D4D38F /* Info.plist */,
 				66A65EC72745C39500D4D38F /* Preview Content */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C977BC276AA11C0091D326 /* JournalHome.swift in Sources */,
 				66A65EC42745C39000D4D38F /* ContentView.swift in Sources */,
 				451EDA002769496900680B7E /* HomeMarioView.swift in Sources */,
 				66A65EC22745C39000D4D38F /* MWT_Personal_Project_2App.swift in Sources */,
